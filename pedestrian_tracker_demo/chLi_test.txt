@@ -1,0 +1,109 @@
+常规
+字符集
+使用多字节字符集
+
+全程序优化
+无全程序优化
+
+VC++目录
+包含目录
+$(VC_IncludePath)
+$(WindowsSDK_IncludePath)
+
+库目录
+$(VC_LibraryPath_x64)
+$(WindowsSDK_LibraryPath_x64)
+$(NETFXKitsDir)Lib\um\x64
+
+C/C++
+常规
+附加包含目录
+C:\Program Files Files (x86)\IntelSWTools\openvino_2019.3.334\deployment_tools\inference_engine\include
+C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\deployment_tools\inference_engine\demos\pedestrian_tracker_demo\include
+C:\Program Files %28x86%29\IntelSWTools\openvino_2019.3.334\deployment_tools\open_model_zoo\demos\common
+C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\deployment_tools\inference_engine\external\tbb\include
+C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\deployment_tools\inference_engine\src\extension
+C:\Users\abaci-ff\Documents\Intel\OpenVINO\omz_demos_build\thirdparty\gflags\include
+C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\opencv\include
+
+预处理器
+预处理器定义
+WIN32
+_WINDOWS
+_SCL_SECURE_NO_WARNINGS
+NOMINMAX
+NDEBUG
+_CRT_SECURE_NO_WARNINGS
+USE_OPENCV
+WITH_EXTENSIONS
+IE_THREAD=IE_THREAD_TBB
+HAVE_SSE
+HAVE_AVX2
+GFLAGS_IS_A_DLL=0
+CMAKE_INTDIR="Release"
+
+代码生成
+启用增强指令集
+高级矢量扩展 2
+
+高级
+编译为
+编译为C++代码
+
+禁用特定警告
+4251;4275;4267
+
+使用完全路径
+否
+
+链接器
+常规
+启用增量链接
+否
+
+输入
+附加依赖项
+C:\Users\abaci-ff\Documents\Intel\OpenVINO\omz_demos_build\intel64\Release\cpu_extension.lib
+C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\opencv\lib\opencv_highgui412.lib
+C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\deployment_tools\inference_engine\lib\intel64\Release\inference_engine.lib
+C:\Users\abaci-ff\Documents\Intel\OpenVINO\omz_demos_build\intel64\Release\gflags_nothreads_static.lib
+-nodefaultlib:vcomp
+C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\deployment_tools\inference_engine\lib\intel64\Release\tbb.lib
+C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\opencv\lib\opencv_videoio412.lib
+C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\opencv\lib\opencv_imgcodecs412.lib
+C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\opencv\lib\opencv_imgproc412.lib
+C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\opencv\lib\opencv_core412.lib
+shlwapi.lib
+kernel32.lib
+user32.lib
+gdi32.lib
+winspool.lib
+shell32.lib
+ole32.lib
+oleaut32.lib
+uuid.lib
+comdlg32.lib
+advapi32.lib
+
+忽略特定默认库
+%(IgnoreSpecificDefaultLibraries)
+
+调试
+生成调试信息
+否
+
+系统
+子系统
+控制台
+
+启用大地址
+是
+
+高级
+导入库
+C:/Users/abaci-ff/Documents/Intel/OpenVINO/omz_demos_build/intel64/Release/pedestrian_tracker_demo.lib
+
+===============
+cpu_extension.dll加入系统变量并重启or加入System32
+===============
+

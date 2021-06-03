@@ -1,0 +1,6 @@
+﻿D:\Program Files (x86)\VS2017\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets(76,5): warning : 文件“e:\chli\openvino\jsoncpp-src-0.5.0\makefiles\vs71\x64\release\vc141.pdb”正由另一进程使用，因此该进程无法访问此文件。
+D:\Program Files (x86)\VS2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(x64\Release\)包含从另一个项目(jsontest.vcxproj, lib_json.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  jsontest.cpp
+  main.cpp
+  正在生成代码...
+E:\chLi\OpenVINO\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp : fatal error C1083: 无法打开编译器生成的文件: “E:\chLi\OpenVINO\jsoncpp-src-0.5.0\makefiles\vs71\x64\Release\main.obj”: Permission denied
